@@ -11,7 +11,7 @@
     "test": "npm run test:clean && npm run transpile && mocha --require source-map-support/register --recursive transpiled/test",
     "transpile": "tsc --project ./test"
   },
-  "author": "fanxiaokai <xiaokai.fan@bitmain.com>",
+  "author": "Codeb Fan <codeb2cc@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@cloudflare/workers-types": "^1.0.1",
